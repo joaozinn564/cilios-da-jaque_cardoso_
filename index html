@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cílios da Mamãe</title>
+  <style>
+    /* Reset básico */
+    * { margin: 0; padding: 0; box-sizing: border-box; font-family: Arial, sans-serif; }
+    body { background: #fff; color: #111; line-height: 1.6; }
+
+    /* Header */
+    header { background: #f8f8f8; padding: 20px; border-bottom: 1px solid #ddd; display: flex; justify-content: space-between; align-items: center; }
+    header h1 { font-size: 26px; color: #4f46e5; }
+    nav a { text-decoration: none; color: #333; margin-left: 15px; }
+    nav a:hover { color: #4f46e5; }
+
+    /* Botão WhatsApp */
+    .btn { display: inline-block; padding: 12px 25px; background: #25D366; color: #fff; border-radius: 8px; text-decoration: none; font-weight: bold; transition: background 0.3s; }
+    .btn:hover { background: #1ebe5d; }
+
+    /* Main */
+    main { max-width: 900px; margin: 40px auto; padding: 0 20px; }
+    section { margin-bottom: 60px; }
+
+    h2, h3 { color: #111; margin-bottom: 15px; }
+
+    /* Serviços */
+    .services { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+    .service { padding: 20px; border: 1px solid #ddd; border-radius: 10px; text-align: center; transition: transform 0.3s, box-shadow 0.3s; }
+    .service:hover { transform: translateY(-5px); box-shadow: 0 10px 20px rgba(0,0,0,0.1); }
+    @media(max-width: 768px){ .services{grid-template-columns:1fr;} }
+
+    /* Footer */
+    footer { text-align: center; padding: 20px; background: #f8f8f8; border-top: 1px solid #ddd; color: #555; font-size: 14px; }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Cílios da Mamãe</h1>
+    <nav>
+      <a href="#home">Início</a>
+      <a href="#about">Sobre</a>
+      <a href="#services">Serviços</a>
+      <a href="#contact">Contato</a>
+    </nav>
+  </header>
+
+  <main id="home">
+    <!-- Hero -->
+    <section>
+      <h2>Realce sua beleza com cílios perfeitos</h2>
+      <p>Agende seu atendimento de maneira rápida e prática. Cílios volumosos, alongamentos e manutenção profissional.</p>
+      <a class="btn" href="https://wa.me/554991942080" target="_blank">Agendar pelo WhatsApp</a>
+    </section>
+
+    <!-- Sobre -->
+    <section id="about">
+      <h3>Sobre mim</h3>
+      <p>Sou especialista em cílios, oferecendo técnicas modernas e personalizadas para valorizar o olhar de cada cliente. Atendimento com conforto, higiene e profissionalismo.</p>
+    </section>
+
+    <!-- Serviços -->
+    <section id="services">
+      <h3>Serviços</h3>
+      <div class="services">
+        <div class="service">
+          <h4>Alongamento de Cílios</h4>
+          <p>Cílios longos, volumosos e naturais, aplicados com técnicas modernas.</p>
+        </div>
+        <div class="service">
+          <h4>Manutenção</h4>
+          <p>Reforço e reposição para manter seus cílios sempre impecáveis.</p>
+        </div>
+        <div class="service">
+          <h4>Volume Russo</h4>
+          <p>Aplicação de múltiplos fios finos para volume intenso e delicado.</p>
+        </div>
+        <div class="service">
+          <h4>Design de Sobrancelhas</h4>
+          <p>Complemento perfeito para valorizar ainda mais seu olhar.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contato -->
+    <section id="contact">
+      <h3>Contato</h3>
+      <p>Agende pelo WhatsApp clicando no botão:</p>
+      <a class="btn" href="https://wa.me/554991942080" target="_blank">Agendar pelo WhatsApp</a>
+    </section>
+  </main>
+
+  <footer>
+    &copy; 2025 Cílios da Mamãe. Todos os direitos reservados.
+  </footer>
+
+</body>
+</html>
